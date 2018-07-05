@@ -1,0 +1,9 @@
+/Users/student/Projects/SApp/SApp/bin/Debug/netstandard2.0/SApp.deps.json
+/Users/student/Projects/SApp/SApp/bin/Debug/netstandard2.0/SApp.dll
+/Users/student/Projects/SApp/SApp/bin/Debug/netstandard2.0/SApp.pdb
+/Users/student/Projects/SApp/SApp/obj/Debug/netstandard2.0/SApp.csprojResolveAssemblyReference.cache
+/Users/student/Projects/SApp/SApp/obj/Debug/netstandard2.0/SApp.csproj.CoreCompileInputs.cache
+/Users/student/Projects/SApp/SApp/obj/Debug/netstandard2.0/SApp.AssemblyInfoInputs.cache
+/Users/student/Projects/SApp/SApp/obj/Debug/netstandard2.0/SApp.AssemblyInfo.cs
+/Users/student/Projects/SApp/SApp/obj/Debug/netstandard2.0/SApp.dll
+/Users/student/Projects/SApp/SApp/obj/Debug/netstandard2.0/SApp.pdb

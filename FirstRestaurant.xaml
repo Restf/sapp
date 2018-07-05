@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SApp.FirstRestaurant">
+    <ContentPage.Content>
+   
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+                <Button Text="дата" FontSize=" Micro"
+                   
+                    TextColor="White"
+                    BackgroundColor="Teal"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"
+                    Grid.RowSpan="2"> 
+                <Picker x:Name="choice" />
+                </Button>
+               
+                   
+                
+                    
+                        
+              
+            
+            
+            <Button Text="время"
+                    FontSize="Micro"
+                    TextColor="White"
+                    BackgroundColor="Teal"
+                    Grid.Row="0"
+                    Grid.Column="4"
+                    Grid.ColumnSpan="4"
+                      Grid.RowSpan="2"
+            />
+              <Button Text="гости"
+                    FontSize="Micro"
+                    TextColor="White"
+                    BackgroundColor="Teal"
+                    Grid.Row="0"
+                    Grid.Column="8"
+                    Grid.ColumnSpan="4"
+                      Grid.RowSpan="2"
+            />
+             <Button Text="поиск"
+                    FontSize="Micro"
+                    TextColor="White"
+                    BackgroundColor="Teal"
+                    Grid.Row="0"
+                    Grid.Column="12"
+                    Grid.ColumnSpan="4"
+                      Grid.RowSpan="2"
+            />
+            
+             <Label Text="  "
+               BackgroundColor="Silver"
+                     
+                Grid.Row="2"
+                Grid.Column="2"
+                    
+
+                />
+             <Label Text="   "
+                BackgroundColor="Silver"
+                     Grid.Row="2"
+                Grid.Column="8"
+                    
+                />
+                <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="4"
+                Grid.Column="4"
+                       
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="6"
+                Grid.Column="2"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="6"
+                Grid.Column="5"
+                   
+                />
+           <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="4"
+                Grid.Column="10"
+                  
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="6"
+                Grid.Column="12"
+                  
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="7"
+                Grid.Column="3"
+                  
+                />
+            <Label Text="  "
+                TextColor="White"
+                FontSize="Large"
+                BackgroundColor="Silver"
+                     Grid.Row="7"
+                Grid.Column="7"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="9"
+                Grid.Column="3"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="9"
+                Grid.Column="7"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="10"
+                Grid.Column="5"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="10"
+                Grid.Column="12"
+                 
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="11"
+                Grid.Column="2"
+                   
+                />
+            <Label Text="  "
+               BackgroundColor="Silver"
+                     Grid.Row="11"
+                Grid.Column="8"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="13"
+                Grid.Column="0"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="13"
+                Grid.Column="4"
+                  
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="13"
+                Grid.Column="6"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="13"
+                Grid.Column="10"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="15"
+                Grid.Column="2"
+                   
+                />
+            <Label Text="  "
+                BackgroundColor="Silver"
+                     Grid.Row="15"
+                Grid.Column="8"
+                   
+                />
+            <Button Text="  "
+                    BackgroundColor="Teal"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Grid.RowSpan="3"
+                    Grid.ColumnSpan="3"
+                    CornerRadius="50"
+            />
+           
+            <Button Text="  "
+                    BackgroundColor="Teal"
+                    Grid.Row="3"
+                    Grid.Column="7"
+                    Grid.RowSpan="3"
+                    Grid.ColumnSpan="3"
+                    CornerRadius="50"
+            />
+           
+            <Button Text="  "
+                    BackgroundColor="Teal"
+                    Grid.Row="7"
+                    Grid.Column="4"
+                    Grid.RowSpan="3"
+                    Grid.ColumnSpan="3"
+                    CornerRadius="50"
+            />
+            <Button Text="  "
+                    BackgroundColor="Teal"
+                    Grid.Row="7"
+                    Grid.Column="11"
+                    Grid.RowSpan="3"
+                    Grid.ColumnSpan="3"
+                    CornerRadius="50"
+            />
+            <Button Text="  "
+                    BackgroundColor="Teal"
+                    Grid.Row="12"
+                    Grid.Column="1"
+                    Grid.RowSpan="3"
+                    Grid.ColumnSpan="3"
+                    CornerRadius="50"
+            />
+            <Button Text="  "
+                    BackgroundColor="Teal"
+                    Grid.Row="12"
+                    Grid.Column="7"
+                    Grid.RowSpan="3"
+                    Grid.ColumnSpan="3"
+                    CornerRadius="50"
+            />
+            
+
+
+            
+        </Grid>
+
+        
+    </ContentPage.Content>
+</ContentPage>

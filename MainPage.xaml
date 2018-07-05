@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SApp" x:Class="SApp.MainPage"
+             Title="HSE group">
+    <ContentPage.Content>
+        <StackLayout >
+             <Label TextColor="White" BackgroundColor="Teal" HorizontalOptions="Center" FontSize="20"/>
+          </StackLayout> 
+    </ContentPage.Content>
+
+    <StackLayout>
+        
+      <Label Text="Выберите сеть ресторанов"
+             TextColor="Teal"
+
+             FontSize="Small"
+             VerticalOptions="Center"
+             HorizontalOptions="CenterAndExpand"
+
+
+
+        />
+        
+        <Button Text="White rabbit"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+                BorderRadius=" 30"/> 
+
+       
+         <Button Text="Molon Lave"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+               BorderRadius=" 30"
+                 
+        />
+         <Button Text="Apollo"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+                 BorderRadius=" 30"
+        />
+         <Button Text="La Maree"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+                 BorderRadius=" 30"
+        />
+         <Button  
+            Text="Luce "
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+               BorderRadius=" 30"
+               
+                
+        />
+       
+        
+     
+        
+    </StackLayout>
+     
+</ContentPage>

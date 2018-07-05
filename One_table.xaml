@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SApp.One_table">
+    <ContentPage.Content>
+        <ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="1*"/>
+                               </Grid.RowDefinitions>
+
+                               <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="1*" />
+                               </Grid.ColumnDefinitions>
+
+                                <Label Text="    "
+                                        TextColor="White"
+                                        FontSize="Large"
+                                        BackgroundColor="Gray"
+                                        Grid.Row="0"
+                                        Grid.Column="0"/>
+                                
+                                <Label Text="     "
+                                        TextColor="White"
+                                        FontSize="Large"
+                                        BackgroundColor="Gray"
+                                        Grid.Row="0"
+                                        Grid.Column="2"/>
+
+                                <Label  Text="    "
+                                        TextColor="White"
+                                        FontSize="Large"
+                                        BackgroundColor="Gray"
+                                        Grid.Row="2"
+                                        Grid.Column="0"/>
+                                
+                                <Label Text="  "
+                                        TextColor="White"
+                                        FontSize="Large"
+                                        BackgroundColor="Gray"
+                                        Grid.Row="2"
+                                        Grid.Column="2"/>
+                                
+                                <Button Text=" 1 "
+                                        TextColor="White"
+                                        FontSize="Large"
+                                        BackgroundColor="Teal"
+                                        Grid.Row="1"
+                                        Grid.Column="1"/>
+
+                            </Grid>
+                         
+                
+                    </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
+
+        
+    </ContentPage.Content>
+</ContentPage>
