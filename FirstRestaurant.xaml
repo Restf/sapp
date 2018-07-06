@@ -50,7 +50,8 @@
                     Grid.Row="0"
                     Grid.Column="0"
                     Grid.ColumnSpan="4"
-                    Grid.RowSpan="2">
+                    Grid.RowSpan="2"
+                    Clicked="Method_Button1">
                 
                 
                
@@ -65,6 +66,7 @@
                     Grid.Column="4"
                     Grid.ColumnSpan="4"
                       Grid.RowSpan="2"
+                    Clicked="Method_Button2"
             />
               <Button Text="гости"
                     FontSize="Micro"
@@ -74,6 +76,7 @@
                     Grid.Column="8"
                     Grid.ColumnSpan="4"
                       Grid.RowSpan="2"
+                      Clicked="Method_Button3"
             />
              <Button Text="поиск"
                     FontSize="Micro"
